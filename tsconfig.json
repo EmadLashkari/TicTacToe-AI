@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2015", // Target ES2015 or later
+    "module": "ESNext",
+    "strict": true,
+    "outDir": "./dist", // Output directory for compiled files
+    "rootDir": "./app", // Root directory for source files
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["ES2022", "DOM"] // Include ES2015 and DOM libraries
+  },
+  "include": ["app/**/*"] // Include all files in the app directory
+}
